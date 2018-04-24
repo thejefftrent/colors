@@ -44,6 +44,45 @@
       <span>This is d5</span>
     </div>
   </body>
+  <script>
+    $(function(){
+      var color = new Color("#123123");
+
+      //n
+      $(".n").css("background-color",color.getColorHex());
+      $(".n").css("color",color.getColorText());
+
+      $(".l1").css("background-color",color.getTint(.1));
+      $(".l1").css("color",color.getTintText(.1));
+
+      $(".l2").css("background-color",color.getTint(.2));
+      $(".l2").css("color",color.getTintText(.2));
+
+      $(".l3").css("background-color",color.getTint(.4));
+      $(".l3").css("color",color.getTintText(.4));
+
+      $(".l4").css("background-color",color.getTint(.6));
+      $(".l4").css("color",color.getTintText(.6));
+
+      $(".l5").css("background-color",color.getTint(.8));
+      $(".l5").css("color",color.getTintText(.8));
+
+      $(".d1").css("background-color",color.getShade(.1));
+      $(".d1").css("color",color.getShadeText(.1));
+
+      $(".d2").css("background-color",color.getShade(.2));
+      $(".d2").css("color",color.getShadeText(.2));
+
+      $(".d3").css("background-color",color.getShade(.4));
+      $(".d3").css("color",color.getShadeText(.4));
+
+      $(".d4").css("background-color",color.getShade(.6));
+      $(".d4").css("color",color.getShadeText(.6));
+
+      $(".d5").css("background-color",color.getShade(.8));
+      $(".d5").css("color",color.getShadeText(.8));
+    });
+  </script>
 </html>
 
 <!--

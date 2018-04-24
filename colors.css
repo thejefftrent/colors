@@ -1,22 +1,22 @@
-.l5 {color:#000 !important; background-color:#fff5ef !important}
-.l4 {color:#000 !important; background-color:#fedcc9 !important}
-.l3 {color:#000 !important; background-color:#fcba94 !important}
-.l2 {color:#000 !important; background-color:#fb975e !important}
-.l1 {color:#fff !important; background-color:#f97528 !important}
-.d1 {color:#fff !important; background-color:#ce4f05 !important}
-.d2 {color:#fff !important; background-color:#b74605 !important}
-.d3 {color:#fff !important; background-color:#a03d04 !important}
-.d4 {color:#fff !important; background-color:#893504 !important}
-.d5 {color:#fff !important; background-color:#722c03 !important}
+.l5 {color:#000; background-color:#fff5ef}
+.l4 {color:#000; background-color:#fedcc9}
+.l3 {color:#000; background-color:#fcba94}
+.l2 {color:#000; background-color:#fb975e}
+.l1 {color:#fff; background-color:#f97528}
+.d1 {color:#fff; background-color:#ce4f05}
+.d2 {color:#fff; background-color:#b74605}
+.d3 {color:#fff; background-color:#a03d04}
+.d4 {color:#fff; background-color:#893504}
+.d5 {color:#fff; background-color:#722c03}
 
-.l {color:#000 !important; background-color:#fff5ef !important}
-.d {color:#fff !important; background-color:#722c03 !important}
-.action {color:#fff !important; background-color:#722c03 !important}
+.l {color:#000; background-color:#fff5ef}
+.d {color:#fff; background-color:#722c03}
+.action {color:#fff; background-color:#722c03}
 
-.n {color:#fff !important; background-color:#e55806 !important}
-.text {color:#e55806 !important}
-.border{border-color:#e55806 !important}
+.n {color:#fff; background-color:#e55806}
+.text {color:#e55806}
+.border{border-color:#e55806}
 
-.hover:hover {color:#fff !important; background-color:#e55806 !important}
-.hover-text:hover {color:#e55806 !important}
-.hover-border:hover {border-color:#e55806 !important}
+.hover:hover {color:#fff; background-color:#e55806  }
+.hover-text:hover {color:#e55806  }
+.hover-border:hover {border-color:#e55806  }
