@@ -21,7 +21,7 @@ function Color(hex) {
 
   function calcText(rgb)
   {
-    if (calcLuma(rgb) > 125) {
+    if (calcLuma(rgb) < 125) {
       return "#FFFFFF"; //white
     }
     else {
@@ -84,7 +84,7 @@ function Color(hex) {
   }
 
   this.getColorText = function() {
-    return calcText(this.hex);
+    return calcText(this.rgbArray());
   }
 
   this.getShade = function(shade) {
@@ -105,11 +105,11 @@ function Color(hex) {
   }
 
   this.getShadeText = function(shade) {
-    return calcText(calcLuma(this.rgbArrayArg(this.getShade(shade))));
+    return calcText(this.rgbArrayArg(this.getShade(shade)));
   }
 
   this.getTintText = function(tint) {
-    return calcText(calcLuma(this.rgbArrayArg(this.getTint(tint))));
+    return calcText(this.rgbArrayArg(this.getTint(tint)));
   }
 
   this.getLuma = function() {
